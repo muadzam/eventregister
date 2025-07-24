@@ -29,7 +29,7 @@ pipeline {
 
         stage('Stop Old Container') {
             steps {
-                sh 'docker rm -f eventregister-app || true'
+                sh 'docker rm -f eventregister-azam || true'
             }
         }
 
